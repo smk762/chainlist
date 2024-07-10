@@ -1,0 +1,16 @@
+{
+    "chain_name": "Nucleus Testnet",
+    "about" : {
+        "website" : "",
+        "docs": "",
+        "github" : "",
+        "blog" : "",
+        "twitter" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}
