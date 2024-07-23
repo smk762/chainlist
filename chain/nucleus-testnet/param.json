@@ -1,12 +1,69 @@
 {
     "chain_name": "Nucleus Testnet",
+    "chain_image": "nucleus-testnet/resource/chain_nucleus.png",
+    "symbol" : "NUCLEUSTEST",
+    "symbol_image" : "nucleus-testnet/asset/nucleus.png",
+    "bechAccountPrefix" : "nucl",
+    "bechValidatorPrefix" : "",
+    "name_for_dapp" : "NUCLEUSTEST", 
+    "api_name" : "nucleustest",
+    "origin_genesis_time" : "",
+    "accountType" : [
+        {
+            "hd_path": "",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.005unucl",
+            "0.025unucl"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.8,
+        "fee_threshold" : ""
+    },
+    "voting_threshold" : 1000000,
+    "grpc_endpoint" : [
+        {
+            "provider": "KomodoPlatform",
+            "url": "nucleus-grpc.alpha.komodo.earth:443"
+        },
+        {
+            "provider": "KomodoPlatform",
+            "url": "nucleus-grpc.bravo.komodo.earth:443"
+        },
+        {
+            "provider": "KomodoPlatform",
+            "url": "nucleus-grpc.charlie.komodo.earth:443"
+        },
+        {
+            "provider": "KomodoPlatform",
+            "url": "nucleus-grpc.delta.komodo.earth:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/nucleustest/",
+        "account": "https://www.mintscan.io/nucleustest/address/${address}",
+        "tx": "https://www.mintscan.io/nucleustest/tx/${hash}",
+        "proposal": "https://www.mintscan.io/nucleustest/proposals/${id}"
+    },
     "about" : {
         "website" : "",
         "docs": "",
-        "github" : "",
+        "github" : "https://github.com/komodoplatform/nucleus",
         "blog" : "",
+        "medium": "",
         "twitter" : "",
         "coingecko" : ""
+    },
+    "forum": {
+      "main": "",
+      "governance": ""
     },
     "description" : {
         "ko" : "",
