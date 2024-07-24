@@ -1,8 +1,8 @@
 {
     "chain_name": "Nucleus Testnet",
-    "chain_image": "nucleus-testnet/resource/chain_nucleus.png",
+    "chain_image": "nucleus-testnet/asset/nucleustest.png",
     "symbol" : "NUCLEUSTEST",
-    "symbol_image" : "nucleus-testnet/asset/nucleus.png",
+    "symbol_image" : "nucleus-testnet/asset/nucleustest.png",
     "bechAccountPrefix" : "nucl",
     "bechValidatorPrefix" : "",
     "name_for_dapp" : "NUCLEUSTEST", 
